@@ -5,13 +5,13 @@ Next to that there's also others I'd like to compare GOAP to, like Hierarchical 
 ## What is G.O.A.P?
 Now what exactly is G.O.A.P really? It's a way to create decision making in your AI of course. The title actually sort of explains it already, change up the words and you have a pretty easy and straightforward explanation.<br />
 You give your AI a goal to achieve and then give it all sorts of different actions (every action has prerequisites and effects) it can take to eventually reach that goal, it then plans the best possible way to get to that goal. In other words the AI checks the world state and tries to change it to achieve it's goal<br />
-I'll try to explain it more with and example
+I'll try to explain it more with an example
 ![alt text](https://www.aiandgames.com/wp-content/uploads/2020/05/vlcsnap-2020-05-04-10h22m05s673-1024x576.png "Example")
 Say in this case your AI has a goal in another room and needs a way to reach that room. He is given the action to be able to open a door, in the example you see the prerequisites are that: <br />
 * The door has to be closed
 * The door must be in the room the NPC is in
 * The door must lead to room B<br/>
-Once all the prerequisites are there, the action can take place and the effects then also will take place.
+Once all the prerequisites are there, the action can take place and the effects then will occur.
 ## Existing Games
 ### F.E.A.R
 A very known game that uses G.O.A.P is F.E.A.R, a first person action horror game from 2005.<br />
