@@ -2,6 +2,19 @@
 It has always intruiged me how a games AI does its decision making. From deciding where to walk around to choosing between attacking or holding their ground.
 So for this project I decided to research one of the many ways it can be handled, namely Goal Oriented Action Planning. <br />
 Next to that there's also others I'd like to compare GOAP to, like Hierarchical Task Network Planning A.K.A HTN, to see what the pros and cons between them are. <br />
-Using the information I get during my research I will try to create my own implementation of it.
+## What is G.O.A.P?
+Now what exactly is G.O.A.P really? It's a way to create decision making in your AI of course. The title actually sort of explains it already, change up the words and you have a pretty easy and straightforward explanation.<br />
+You give your AI a goal to achieve and then give it all sorts of different actions (every action has prerequisites and effects) it can take to eventually reach that goal, it then plans the best possible way to get to that goal. In other words the AI checks the world state and tries to change it to achieve it's goal<br />
+I'll try to explain it more with and example
+![alt text](https://www.aiandgames.com/wp-content/uploads/2020/05/vlcsnap-2020-05-04-10h22m05s673-1024x576.png "Example")
+Say in this case your AI has a goal in another room and needs a way to reach that room. He is given the action to be able to open a door, in the example you see the prerequisites are that: <br />
+* The door has to be closed
+* The door must be in the room the NPC is in
+* The door must lead to room B<br/>
+Once all the prerequisites are there, the action can take place and the effects then also will take place.
 ## Existing Games
 A very known game that uses G.O.A.P is F.E.A.R, a first person action horror game from 2005.<br />
+This isn't the only implementation of G.O.A.P used in games but it's one that's very easy to access as you can simply download the public source code and open it up in visual studio, plus it's the first very popular game to use this type of decision making in AI.
+## G.O.A.P vs H.T.N
+Now that we know what G.O.A.P is and how it works, I thought it would be a good idea to see what another valid option is.<br/>
+One of the biggest issues G.O.A.P faces is that it's very heavy to run, as every NPC has to constantly replan their approach whenever the world state changes.<br/>
