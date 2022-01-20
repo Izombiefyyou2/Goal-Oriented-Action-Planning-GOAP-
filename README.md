@@ -13,8 +13,13 @@ Say in this case your AI has a goal in another room and needs a way to reach tha
 * The door must lead to room B<br/>
 Once all the prerequisites are there, the action can take place and the effects then also will take place.
 ## Existing Games
+### F.E.A.R
 A very known game that uses G.O.A.P is F.E.A.R, a first person action horror game from 2005.<br />
-This isn't the only implementation of G.O.A.P used in games but it's one that's very easy to access as you can simply download the public source code and open it up in visual studio, plus it's the first very popular game to use this type of decision making in AI.
+This isn't the only implementation of G.O.A.P used in games but it's one that's very easy to access as you can simply download the public source code and open it up in visual studio, plus it's the first very popular game to use this type of decision making for AI.
+### Horizon Zero Dawn
+An also very known game that's more recent is Horizon Zero Dawn.<br/>
+This implementation can't be accessed quite as easy but it shows that even in more recent games this type of decision making is still a valid option.<br/>
+In the next part of this document I'll explain why games like these 2 can use this type of decision making without many issues compared to how other games might have big issues with it.
 ## G.O.A.P vs H.T.N
 Now that we know what G.O.A.P is and how it works, I thought it would be a good idea to see what another valid option is.<br/>
 One of the biggest issues G.O.A.P faces is that it's very heavy to run, as every NPC has to constantly replan their approach whenever the world state changes.<br/>
