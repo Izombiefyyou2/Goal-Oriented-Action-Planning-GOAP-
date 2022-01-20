@@ -27,7 +27,7 @@ H.T.N works more like a tree, in this tree there are 3 types of tasks you can ha
 * primitive tasks, which are simpler tasks.
 * compound tasks, which can be seen as composed of a set of simpler tasks.
 * goal tasks , which roughly corresponds to the goal, but are more general.<br/>
-![alt text](https://www.researchgate.net/profile/Piper-Jackson/publication/225115074/figure/fig3/AS:667774657515531@1536221293427/Hierarchical-Task-Network-HTN-Example.png "Example HTN")
+![alt text](https://www.researchgate.net/profile/Piper-Jackson/publication/225115074/figure/fig3/AS:667774657515531@1536221293427/Hierarchical-Task-Network-HTN-Example.png "Example HTN")<br />
 The problem H.T.N can face is that it is really expressive, which in general cases makes it so it's indecidable and thus can't function properly.
 ## Conclusion
 G.O.A.P is a very interesting and good way of going through decision making for your AI, the problems it gives make it so not many NPC's can have it running at the same time. But with a bit of a smart workaround you can use it to create highly intelligent AI.<br />
